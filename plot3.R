@@ -6,7 +6,7 @@
 ###############################
 
 ###############################
-## Inputs: ./ExData_Plotting1/household_power_consumption.txt
+## Inputs: household_power_consumption.txt
 ##
 ## Outputs: plot3.png 
 ###############################
@@ -35,7 +35,7 @@
 ?read.table
 # NOTES: 1st row header, separator is semicolon, NA is a ?
 EPCfull<-read.table(
-        "./ExData_Plotting1/household_power_consumption.txt", 
+        "household_power_consumption.txt", 
         sep=";", 
         header=TRUE,
         na.strings = "?",
